@@ -33,7 +33,7 @@ app.use(express.static(publicStaticDirPath)); /*  declere publicStaticDirPath*/
 /* first api  end points*/
 app.get('',(req, res) =>{
     res.render('index',{
-        title:'weather app'
+        title:'Weather Application #Ganesh '
     })
 
 })
